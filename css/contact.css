@@ -1,0 +1,163 @@
+body{
+margin:0;
+padding:0;
+background-color: #f2f2f2;
+background-size: cover;
+ font-family: sans-serif;
+}
+}
+h1{
+background: #f2f2f2;
+margin:0;
+padding:0;
+height:70px;
+
+
+}
+
+.container{
+width: 90%;
+margin: auto;
+overflow:hidden;
+
+}
+
+.Contact-section{
+background: linear-gradient(rgba(0,0,0,0.6),url(../imgs/contact.jpg));
+background-size: center;
+height:100%;
+width:100%;
+padding-botton:2%;
+}
+
+.contact-section h2{
+text-align: center;
+text-decoration: underline;
+text-underline-pisition: under;
+color: #fff;
+letter-speacing: 2px;
+}
+
+.container p{
+width: 70%;
+padding-bottom:2%;
+color: black;
+letter-spacing:3px;
+}
+.contact-form i.fa{
+font-size: 40px;
+padding:3%;
+border-radius: 80%;
+background-color: none;
+margin: 10%;
+cursor: pointer;
+border: 2px solid rgb(190,190,190);
+color: rgb(190,190,190);
+
+}
+.contact-form i.fa:hover{
+cursor:pointer;
+border:2px solid #fff;
+color:#fff;}
+
+
+.contact-form{
+display:grid;
+grid-template-columns:auto auto;
+width:80%;
+height:180%;
+margin:100px;
+padding:60;
+top:1%;
+float:right;
+box-sizing: border-box;
+}
+
+
+.form-info{
+margin:2%;
+front-size:16px;
+front-style: italic;
+color:# fff;
+top:60%;
+letter-spacing:2px;
+}
+
+input{
+padding: 10px;
+margin: 10px;
+width: 70%;
+background-color:rgba(136,133,133,0.5);
+color:white;
+border:none;
+outline: none;
+}
+
+.placeholder{
+color: white;
+
+}
+
+textarea{
+padding: 10px;
+margin: 10px;
+width: 70%;
+background-color:rgba(136,133,133,0.3);
+color:#fff;
+border:none;
+outline: none;
+}
+textarea:: placeholder{
+color: white;
+
+}
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+.send{
+display: block;
+background:black;
+ paddng: 14px 0;
+ color: white;
+
+ }
+
+/* Add a ** background color to the top navigation */
+.topnav {
+  background-color: #9ba4b4;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: #14274e;
+}
+
+/* Add a color to the active/current link */
+.topnav .active {
+  background-color: black;
+  color: #9ba4b4;
+}
